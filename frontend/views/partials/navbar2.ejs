@@ -1,0 +1,30 @@
+<nav class="navbar">
+    <a href="/" class="logo">
+        <img src="/images/logo.png" alt="Logo">
+    </a>
+    
+    <div class="search-bar">
+        <input type="text" placeholder="Search posts...">
+        <button type="submit">🔍</button>
+    </div>
+    
+    <div class="menu-toggle" onclick="toggleMenu()">
+        <span></span>
+        <span></span>
+        <span></span>
+    </div>
+    
+    <ul class="nav-links">
+        <li><a href="/">Home</a></li>
+        <li><a href="/my-posts">My Posts</a></li>
+        <li class="post-btn"><a href="/create-post">+ New Post</a></li>
+        <li><a href="/logout">Logout</a></li>
+    </ul>
+</nav>
+
+<script>
+function toggleMenu() {
+    document.querySelector('.nav-links').classList.toggle('active');
+    document.querySelector('.menu-toggle').classList.toggle('active');
+}
+</script>
