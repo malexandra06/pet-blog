@@ -4,12 +4,52 @@ A full-stack blog application built with Node.js, Express, MySQL, and EJS templa
 
 ## Screenshots
 
-> Add your screenshots in a `screenshots/` folder
+### Authentication
 
-![Home Page](screenshots/home.png)
-![Login](screenshots/login.png)
-![Create Post](screenshots/create-post.png)
-![My Posts](screenshots/my-posts.png)
+#### Login
+![Login page](poze2/login.png)
+
+#### Sign Up
+![Sign up page](poze2/signup.png)
+
+---
+
+### Main Feed
+
+#### Home Page - All Posts
+![Home page with all posts](poze2/main_page.png)
+
+#### Post View
+![Single post view](poze2/post.png)
+
+#### Post with Likes
+![Post with like button](poze2/like.png)
+
+#### Comments Section
+![Comments on a post](poze2/comment.png)
+
+---
+
+### User Profile
+
+#### User Posts Page
+![Posts by specific user](poze2/account.png)
+
+#### Search Users
+![Search functionality](poze2/search.png)
+
+---
+
+### My Posts (Logged In)
+
+#### My Posts Dashboard
+![My posts page](poze2/myposts.png)
+
+#### Single Post Management
+![My post with edit/delete options](poze2/mypost.png)
+
+#### Edit Post Modal
+![Edit post modal](poze2/edit.png)
 
 ---
 
